@@ -1,0 +1,7 @@
+user_input=input('Enter the value:-')
+clean_input=(user_input.replace('of',''))
+phrase=clean_input.split()
+acronyms=''
+for i in phrase:
+   acronyms=acronyms+i[0].upper()
+print('The acronyms of'+ user_input+'is:-'+ acronyms)
